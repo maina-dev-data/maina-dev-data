@@ -1,7 +1,7 @@
 <div align="center">
 
 # Kelvin W. Maina
-### Data Scientist · ML Engineer 
+### Data Scientist · ML Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelvin-maina)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelvinmainahh@gmail.com)
@@ -23,11 +23,11 @@ Currently working as a **Data & Planning Analyst** at the Department of Central 
 
 ```python
 kelvin = {
-    "location": "Nairobi, Kenya 🇰🇪",
-    "focus": ["Machine Learning", "Agricultural AI", "Health Analytics", "Fintech ML"],
-    "stack": ["Python", "React.js", "FastAPI", "SQL", "MongoDB"],
-    "currently_learning": ["Deep Learning", "MLOps", "LLM Integration"],
-    "looking_for": "Roles at the intersection of data science and real-world impact"
+    "location":          "Nairobi, Kenya 🇰🇪",
+    "focus":             ["Agricultural AI", "Health Analytics", "Fintech ML", "MLOps"],
+    "stack":             ["Python", "React.js", "FastAPI", "SQL", "MongoDB"],
+    "currently_learning":["Deep Learning", "MLOps", "LLM Integration"],
+    "goal":              "Models that change outcomes, not just predict them"
 }
 ```
 
@@ -35,57 +35,135 @@ kelvin = {
 
 ## 🤖 ML Projects
 
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
 ### 🌱 Crop Disease Detection
-> *Can computer vision accurately identify crop diseases from leaf images?*
+> *Can computer vision identify crop diseases from leaf images?*
 
-CNN-based image classification model trained on leaf disease datasets to identify crop pathogens in the field. Deployed as a FastAPI backend with a React frontend — farmers can upload a photo and receive a diagnosis instantly.
+CNN-based image classification model trained on leaf disease datasets. Farmers upload a photo and receive an instant diagnosis — species, disease, and recommended action.
 
-**Stack:** `Python` `TensorFlow/Keras` `CNN` `FastAPI` `React.js` `OpenCV`
+**Algorithms:** CNN · Transfer Learning (ResNet)
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
----
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://your-crop-disease-link.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/kelvinmaina/crop-disease-detection)
+
+</td>
+
+<td width="50%" valign="top">
 
 ### 🌾 Crop Yield Prediction
-> *Can weather, soil, and agricultural data predict crop yields?*
+> *Can weather, soil and agricultural data predict crop yields?*
 
-Regression model combining historical weather data, soil composition metrics, and agronomic variables to forecast seasonal crop yields by region. Built an interactive Streamlit dashboard for agricultural planners to run scenario simulations.
+Regression model combining historical weather, soil composition, and agronomic variables to forecast seasonal yields by region. Interactive scenario simulator for agricultural planners.
 
-**Stack:** `Python` `Pandas` `Scikit-learn` `XGBoost` `Streamlit` `FastAPI` `SQL`
+**Algorithms:** XGBoost · Random Forest · Linear Regression
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
----
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://your-crop-yield-link.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/kelvinmaina/crop-yield-prediction)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
 
 ### 💰 Agricultural Credit Scoring
-> *Can ML predict repayment risk for smallholder farmers without credit history?*
+> *Can ML predict repayment risk for smallholder farmers?*
 
-Classification model using alternative data signals — farm size, crop type, weather exposure, and transaction history — to generate credit risk scores for smallholder farmers. Deployed via FastAPI with a management dashboard for lender decision support.
+Classification model using alternative data signals — farm size, crop type, weather exposure, transaction history — to generate credit risk scores for farmers without formal credit history. Lender decision dashboard included.
 
-**Stack:** `Python` `Scikit-learn` `LightGBM` `FastAPI` `React.js` `PostgreSQL` `Power BI`
+**Algorithms:** LightGBM · Logistic Regression · SHAP Explainability
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-189FDD?style=flat-square&logo=lightgbm&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
----
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://your-credit-scoring-link.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/kelvinmaina/agricultural-credit-scoring)
+
+</td>
+
+<td width="50%" valign="top">
 
 ### 🏥 Disease Risk Prediction
 > *Can demographic and clinical variables predict disease risk?*
 
-Supervised classification model using patient demographic and clinical data to predict disease risk scores. Deployed as a full web application with role-based access for clinical and administrative users.
+Supervised classification model scoring patient disease risk from demographic and clinical inputs. Full web application with role-based access for clinical and administrative users.
 
-**Stack:** `Python` `Scikit-learn` `Pandas` `FastAPI` `React.js` `MySQL` `JWT Auth`
+**Algorithms:** Random Forest · Logistic Regression · ROC-AUC Evaluation
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
----
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://your-disease-risk-link.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/kelvinmaina/disease-risk-prediction)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
 
 ### 📊 Customer Churn Prediction
 > *Which factors best predict customer churn?*
 
-Binary classification model identifying at-risk customers using behavioural and transactional features. Includes SHAP explainability so business teams can understand which factors drive churn for individual customers. Deployed with an API and interactive dashboard.
+Binary classification model identifying at-risk customers from behavioural and transactional features. SHAP explainability gives business teams per-customer insight into churn drivers. Live API and interactive dashboard.
 
-**Stack:** `Python` `XGBoost` `SHAP` `FastAPI` `React.js` `SQL` `Power BI`
+**Algorithms:** XGBoost · SHAP · Feature Importance Analysis
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square&logo=xgboost&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
----
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://your-churn-link.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/kelvinmaina/customer-churn-prediction)
+
+</td>
+
+<td width="50%" valign="top">
 
 ### 🌧️ Drought Prediction
 > *Can historical weather data predict drought conditions?*
 
-Time-series forecasting model using historical rainfall, temperature, and soil moisture data to predict drought onset by region. Includes a real-time monitoring dashboard with alert thresholds for early warning.
+Time-series forecasting model using historical rainfall, temperature, and soil moisture data to predict drought onset by region. Real-time monitoring dashboard with configurable alert thresholds for early warning systems.
 
-**Stack:** `Python` `Pandas` `Prophet` `LSTM` `Streamlit` `FastAPI` `PostgreSQL`
+**Algorithms:** Prophet · LSTM · ARIMA
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://your-drought-link.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/kelvinmaina/drought-prediction)
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -98,12 +176,14 @@ Time-series forecasting model using historical rainfall, temperature, and soil m
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square&logo=xgboost&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
+![SPSS](https://img.shields.io/badge/SPSS-052FAD?style=flat-square&logo=ibm&logoColor=white)
 
 ### Deployment & APIs
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### Full-Stack Development
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -123,26 +203,13 @@ Time-series forecasting model using historical rainfall, temperature, and soil m
 
 ---
 
-## 📊 ML Project Summary
-
-| Project | Type | Algorithm | Deployment |
-|---|---|---|---|
-| 🌱 Crop Disease Detection | Computer Vision | CNN | FastAPI + React |
-| 🌾 Crop Yield Prediction | Regression | XGBoost / Random Forest | Streamlit + FastAPI |
-| 💰 Agricultural Credit Scoring | Classification | LightGBM | FastAPI + Dashboard |
-| 🏥 Disease Risk Prediction | Classification | Logistic Regression / RF | Web Application |
-| 📊 Customer Churn Prediction | Classification | XGBoost + SHAP | API + Dashboard |
-| 🌧️ Drought Prediction | Time Series | Prophet + LSTM | Dashboard + API |
-
----
-
 ## 🌍 Domain Focus
 
 ```
-Agriculture    ████████████████████  Crop disease · yield prediction · drought · credit scoring
-Health         ████████████░░░░░░░░  Disease risk · clinical analytics
-Finance        ████████████░░░░░░░░  Credit scoring · churn · portfolio analytics
-Government     █████████░░░░░░░░░░░  KPI monitoring · public sector data platforms
+Agriculture    ████████████████████  Crop disease · yield · drought · credit scoring
+Health         ██████████████░░░░░░  Disease risk · clinical analytics
+Finance        ██████████████░░░░░░  Credit scoring · churn · portfolio analytics
+Government     ██████████░░░░░░░░░░  KPI platforms · public sector data pipelines
 ```
 
 ---
