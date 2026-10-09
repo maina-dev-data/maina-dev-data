@@ -137,7 +137,7 @@ Binary classification model identifying at-risk customers from behavioural and t
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://customer-churn-prediction-1-qwas.onrender.com/predict)
+[![🔗 Live Demo](https://img.shields.io/badge/🔗_Live_Demo-4CAF50?style=for-the-badge)](https://customer-churn-prediction-1-qwas.onrender.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data/Customer-Churn-Prediction)
 
 </td>
