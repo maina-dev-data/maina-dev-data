@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="assets/profile-banner.png" alt="Kelvin Maina — Data Scientist and ML Engineer" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kelvin-maina)
 [![GitHub](https://img.shields.io/badge/GitHub-Explore-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data)
