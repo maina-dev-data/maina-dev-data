@@ -1,104 +1,130 @@
-# Kelvin W. Maina
+<div align="center">
 
-**Data Scientist · ML Engineer**
+<img src="assets/profile-banner.png" alt="Kelvin Maina — Data Scientist and ML Engineer" width="100%"/>
 
-> Synthesizing empirical machine learning, edge computer vision, and high-throughput data platforms to empower real-world agricultural and fintech resilience.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kelvin-maina)
+[![GitHub](https://img.shields.io/badge/GitHub-Explore-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelvinmainahh@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connected-0077b5?style=flat&logo=linkedin)](https://linkedin.com/in/kelvin-maina)
-[![Email](https://img.shields.io/badge/Email-Verified-fabc45?style=flat&logo=gmail)](mailto:kelvin.maina.ds@gmail.com)
+**Data Scientist | Machine Learning Engineer | MLOps | 🇰🇪 Kenya**
 
----
+*Turning data into insight, models into products, and ideas into impact.*
 
-## About Me
-
-Applied AI practitioner focused on scalable deep learning solutions, predictive risk analytics, and production-grade MLOps deployment. Passionate about bringing algorithmic intelligence from notebook experiments into high-reliability cloud pipelines.
-
-```python
-developer = {
-    "name": "Kelvin W. Maina",
-    "role": "Staff Data Scientist / ML Engineer",
-    "primary_specialty": ["Edge CV", "Tabular Ensembles", "MLOps"],
-    "deployment_targets": ["FastAPI", "Docker", "Triton", "AWS"],
-    "core_metrics": {
-        "f1_target": 0.942,
-        "p99_latency_ms": 42,
-        "production_deployments": 28
-    }
-}
-```
-
-## Selected Projects
-
-### AgriVision: Leaf Pathology Computer Vision
-
-![Status: Production](https://img.shields.io/badge/status-production-3fb950?style=flat)
-![mAP@0.5](https://img.shields.io/badge/mAP%400.5-96.8%25-67df70?style=flat)
-
-An end-to-end computer vision system that detects and classifies foliar diseases in maize crops across four categories, achieving 93.6% test accuracy and a 0.94 weighted F1-score using transfer learning on MobileNetV3.
-
-To handle real-world dataset imbalance and runtime constraints, the project uses weighted sampling, data augmentation, and an unfreezing fine-tuning strategy, with strict image integrity checks and structured logging. The model is productionized as a containerized FastAPI backend, an interactive Streamlit diagnostic dashboard, and automated CI/CD pipelines via GitHub Actions.
-
-**Stack:** PyTorch, TorchScript, FastAPI, TensorRT
-
-### Fintech Churn Radar and Waterfall Interpretability
-
-![AUC-ROC](https://img.shields.io/badge/AUC--ROC-0.931-67df70?style=flat)
-
-A customer retention analytics system that predicts churn probability for retail banking customers. A reproducible scikit-learn data pipeline ingests demographic, account balance, and product interaction signals to score attrition risk.
-
-The model is packaged behind a Flask web application with a responsive UI that gives account managers immediate risk categories and probability scores to trigger targeted retention campaigns. SHAP explanations make each prediction interpretable.
-
-**Stack:** LightGBM, SHAP TreeExplainer, Optuna
-
-### GeoHarvest: Yield Prediction Engine
-
-![RMSE](https://img.shields.io/badge/RMSE-4.1%20bushels-67df70?style=flat)
-
-Integrates Sentinel-2 spectral indices, weather forecast grids, and ground telemetry into spatiotemporal models that forecast crop yields at micro-climate scale.
-
-**Stack:** Google Earth Engine API, XGBoost Regressor, GeoPandas
-
-### AgriCredit: Alternative Risk Scoring
-
-![Gini](https://img.shields.io/badge/Gini-0.78-3fb950?style=flat)
-
-Underwriting models that combine mobile transactions, farm acreage telemetry, and seasonal liquidity profiles to expand credit access to smallholder farmers safely.
-
-**Stack:** Scikit-Learn, Streamlit, PostgreSQL
-
-## Architecture
-
-```text
-[ INGESTION ]  -->  [ MODELING CORE ]         -->  [ SERVING LAYER ]
------------------------------------------------------------------
-Sentinel Sat   -\
-IoT Soil Nodes --> [ GeoSpatial Regressors ]  -> [ Farm Dashboard ]
-M-Pesa Ledger  --> [ Credit Risk Ensembles ]  -> [ Instant Loan API ]
-Camera Feed    --> [ Edge YOLOv8 Detectors ]  -> [ Mobile Offline ]
------------------------------------------------------------------
-           \                  |                  /
-            ===> [ MLflow Tracking Registry ] <===
-            ===> [ Automated Drift Triggers ] <===
-```
-
-## Tech Stack
-
-**Machine Learning and Data Science:** Python 3.11, PyTorch, TensorFlow, Scikit-Learn, XGBoost, LightGBM, Pandas, Polars, OpenCV, SHAP
-
-**Deployment, MLOps and Serving:** Docker, FastAPI, Flask, MLflow, AWS SageMaker, GitHub Actions CI/CD, Streamlit
-
-**Databases and Data Platforms:** PostgreSQL, pgvector, Redis, DuckDB, SQLAlchemy, Apache Airflow
-
-**Analytics, BI and Full-Stack:** Tableau, Power BI, TypeScript, Next.js, Tailwind CSS
-
-## Contact
-
-- **Email:** kelvin.maina.ds@gmail.com
-- **LinkedIn:** [linkedin.com/in/kelvin-maina](https://linkedin.com/in/kelvin-maina)
-- **GitHub:** [github.com/kelvinmaina](https://github.com/kelvinmaina)
+</div>
 
 ---
 
-Available for technical advisory and ML research engagements.
+## 👋 About Me
 
-> Code is temporary. Architected intelligence endures.
+I'm a Mathematics and Computer Science graduate from **Jomo Kenyatta University of Agriculture and Technology (JKUAT)**. I enjoy combining statistics, programming, and machine learning to solve practical problems—and making analytical work useful through applications, dashboards, and clear communication.
+
+- 🔍 **Focus:** Data Science, Machine Learning, and MLOps
+- 🌍 **Domains:** Agriculture, health, finance, and public-sector data
+- 🧪 **Approach:** Understand the problem → explore data → build → evaluate → deploy
+- 🌱 **Currently learning:** Reliable ML pipelines, model explainability, and deployment
+- 📍 **Based in:** Kenya
+
+## 🛠️ Tech & Tools
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,sklearn,tensorflow,pytorch,pandas,numpy,postgres,mysql,mongodb" alt="Data and ML tools"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=fastapi,streamlit,docker,git,github,react,nodejs,js,tailwind,vscode" alt="Development tools"/>
+</div>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Analytics-Excel%20%7C%20Power%20BI%20%7C%20SPSS-F2C811?style=flat-square"/>
+<img src="https://img.shields.io/badge/Workflow-Jupyter%20%7C%20Git%20%7C%20Docker-2496ED?style=flat-square"/>
+</p>
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌿 AgriVision: Leaf Pathology Computer Vision
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0XYoUrfJCQ3R4Cj51zno5po-juld26cJXMBIegFSdVfY4LBxh-Ovz0md6soaM1PBtH5DRN5qtpeRXjRTI2bEZT2RGSzKv6FAM4NYMmyNSQdubpnkIOtkXwxsJOqJQPpDabZ5NjpbfBUaZPtV515Rf0MB3EBTkYwwrMM4uljn9HwyF03QVLICvnNJ5x6PZGizY7PSxMyDGtU0ZV8oLAYdpd3aECCe3ukZ9pxZrFlM" width="100%" alt="AgriVision Leaf Pathology Diagnostic AI"/>
+
+An end-to-end computer vision system to detect and classify foliar diseases in maize crops across four categories, achieving 93.6% test accuracy and a 0.94 weighted F1-score with MobileNetV3 transfer learning. Deployed via a containerized FastAPI backend and Streamlit dashboard.
+
+**Stack:** Python · PyTorch · TorchScript · FastAPI · Streamlit
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-2E8B57?style=for-the-badge)](https://maizeleafdisease-fq2syhvguazlcn8vnparak.streamlit.app/)
+[![Repository](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data/Maize_Leaf_Disease)
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Fintech Churn Radar & Waterfall Interpretability
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL6G0zoTjpOb4_UlVkwHfW798_GnaFdOQZzcFImhaxubqw4a0464fd82upPODd9b9cX-8M5q8wtwhWyTEZGsI3_cx8Uzrc7b6isyhF1k2EOAnoPRQhv1sGIwZiU1S2UdbCViEdcywhJBFxfWHaCgCSnYulfqUp5PJPTWfRqzY_I03iVdjkZ70OBilfSRLSyzPX8ym8jBVd7bdJraM2K6hMRyA_k8AeKD2xZCBKKGE" width="100%" alt="Fintech Customer Churn Prediction Dashboard"/>
+
+A customer retention analytics system predicting client churn probability in retail banking with an AUC-ROC of 0.931. Employs explainable AI (SHAP TreeExplainer) to deliver transparent risk drivers to relationship managers via a responsive web portal.
+
+**Stack:** Python · Scikit-Learn · LightGBM · SHAP · Flask
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-2E8B57?style=for-the-badge)](https://customer-churn-prediction-1-qwas.onrender.com/)
+[![Repository](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data/Customer-Churn-Prediction)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌾 AgriCredit: Alternative Risk Scoring
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDaYStEj_iG8iuA4sgELtw2Gy3KBb5mI8PaleaLSfECKJCBOYUKz9ZW1lu9_RK82jvTlzqZFEsu4SCLbRuATZqLd-qu5irEp6urBv0XQM_WqDD6wwd7tb9Q6fmzYBKMvS3o5dLlfkyZkoY5psrgFQzEmZoQyewUNKedWrkQW-3A1G-LdrpZENOPYojyb3veaeseNm1GcRhOSiF2YIEdjvCui2gI9I6rGNtVW4xN2g" width="100%" alt="Smallholder Credit Risk Scoring Model"/>
+
+Underwriting algorithms synthesizing mobile transactions, farm acreage telemetry, and seasonal liquidity profiles to expand credit access for smallholders safely (Gini Index 0.78).
+
+**Stack:** Scikit-Learn · Streamlit · PostgreSQL · React
+
+[![Live Project](https://img.shields.io/badge/Explore_Project-2E8B57?style=for-the-badge)](https://agrifund-coop.netlify.app/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 GeoHarvest: Yield Prediction Engine
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqxD3BIe_6u-3fHv9-O9fS1cesDYYD8T6obqXDPQvX7_viPA14mxZkxPAfSnfvuaBr_6Ux1-DZYfGbsBSULABKRYZr5-HDntit63QthLcoEUr32WEM2AbsIkRQsRt3SBtnbARJiMS9leCCZbLpxSp4q8nr_aPN9vzlDMhPYUGK6irhCwrgSzhN997wy2HXDv2CRT0w3P2qKpz0G__JR81SGB0xJJweD-cP_JwhXF4" width="100%" alt="Agricultural Crop Yield Forecast Engine"/>
+
+Integrating Sentinel-2 spectral indices, weather forecast grids, and ground telemetry into spatiotemporal recurrent regression models for micro-climate harvests.
+
+**Stack:** GEE API · XGBoost · GeoPandas · Scikit-learn
+
+[![More Projects](https://img.shields.io/badge/More_Projects-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data?tab=repositories)
+
+</td>
+</tr>
+</table>
+
+## 📈 GitHub Dashboard
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=maina-dev-data&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maina-dev-data&layout=compact&hide_border=true&theme=transparent" alt="Most used languages"/>
+<img src="https://streak-stats.demolab.com?user=maina-dev-data&hide_border=true&theme=transparent" alt="Contribution streak"/>
+</div>
+
+## 🧭 What I'm Working Toward
+
+- Designing reproducible end-to-end machine-learning projects
+- Strengthening model validation, explainability, and experiment tracking
+- Deploying models through APIs and lightweight web applications
+- Exploring research questions using African datasets and local use cases
+- Building tools that help people make better decisions with data
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelvin_Maina-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kelvin-maina)
+[![GitHub](https://img.shields.io/badge/GitHub-maina--dev--data-181717?style=for-the-badge&logo=github)](https://github.com/maina-dev-data)
+[![Email](https://img.shields.io/badge/Email-kelvinmainahh%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelvinmainahh@gmail.com)
+
+<br/>
+
+*Whether you'd like to discuss a project, collaborate on open-source ML/data initiatives, or discuss job opportunities, feel free to reach out!*
+
+<br/>
+
+**“Build with curiosity. Measure with rigor. Create impact.”** 🇰🇪
+</div>
